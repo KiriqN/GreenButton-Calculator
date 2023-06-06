@@ -5,12 +5,22 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 
 <head>
+
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','removed for security reasons');</script>
+})(window,document,'script','dataLayer','GTM-K7XX3BN');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TMMTBM7');</script>
 <!-- End Google Tag Manager -->
 
     <meta charset="utf-8">
@@ -57,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
 
-    $url = "removed for security reasons $carePlan/$coverPlan/$amount/$agePlan";
+    $url = "https://leadrelayplatform.com/FPC/api/index.php/plan/option/instalment/$carePlan/$coverPlan/$amount/$agePlan";
 
     $ch = curl_init( $url );
                                 curl_setopt( $ch, CURLOPT_HTTPGET, 1);
@@ -126,6 +136,12 @@ echo "<script>
 </div>
 </div>
 </div>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src=https://www.googletagmanager.com/ns.html?id=GTM-K7XX3BN
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 
 <div class="container">
 				<div class="row">
@@ -587,7 +603,7 @@ var x = start_value;
 <style>
 
 body {
- background-image: url("images/calculator-lady-bg.png");
+ background-image: url("");
  background-color: #ffffff;
  background-repeat: no-repeat;
  margin-top: -1%;
